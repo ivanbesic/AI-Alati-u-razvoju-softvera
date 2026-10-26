@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset style="width: 200px">
+        <legend><b>Kalkulator</b></legend>
+
+        <label for="txtA">Broj A:</label>
+        <input type="text" id="txtA" name="A" /><br />
+
+        <label for="txtB">Broj B:</label>
+        <input type="text" id="txtB" name="B" /><br />
+
+        <label for="lstOp">Računska operacija</label><br />
+        <select id="lstOp" name="operacija" size="4">
+          <option>+</option>
+          <option>-</option>
+          <option>*</option>
+          <option>/</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Izračunaj" />
+      </fieldset>
+    </form>
+  </body>
+</html>
